@@ -1,6 +1,6 @@
 var loadingText = document.querySelector("#loading-text");
 const originalFetch = window.fetch;
-const RAW_BASE = "https://raw.githubusercontent.com/1ts-Alec/cruelty-squad/main/";
+const RAW_BASE = "https://raw.esm.sh/gh/1ts-Alec/cruelty-squad@51a5e7c3335bb78b5670f9543f90a062f8d6ca27/";
 let loadedBytes = 0;
 
 async function fetchWithProgress(url) {
